@@ -1,0 +1,22 @@
+﻿{
+  "Users": [
+    {
+      "Email": "admin@hr.com.vn",
+      "Password": "123@",
+      "FullName": "Admin HR",
+      "MemberRole": 1
+    },
+    {
+      "Email": "manager@hr.com.vn",
+      "Password": "123@",
+      "FullName": "Manager HR", 
+      "MemberRole": 2
+    },
+    {
+      "Email": "staff@hr.com.vn",
+      "Password": "123",
+      "FullName": "Staff HR",
+      "MemberRole": 3
+    }
+  ]
+}

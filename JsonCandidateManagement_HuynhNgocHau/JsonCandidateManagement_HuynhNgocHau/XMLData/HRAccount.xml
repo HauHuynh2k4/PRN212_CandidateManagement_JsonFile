@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+    <User>
+        <Email>admin@hr.com.vn</Email>
+        <Password>123@</Password>
+        <FullName>Admin HR</FullName>
+        <MemberRole>1</MemberRole>
+    </User>
+    <User>
+        <Email>manager@hr.com.vn</Email>
+        <Password>123@</Password>
+        <FullName>Manager HR</FullName>
+        <MemberRole>2</MemberRole>
+    </User>
+    <User>
+        <Email>staff@hr.com.vn</Email>
+        <Password>123</Password>
+        <FullName>Staff HR</FullName>
+        <MemberRole>3</MemberRole>
+    </User>
+</Users>

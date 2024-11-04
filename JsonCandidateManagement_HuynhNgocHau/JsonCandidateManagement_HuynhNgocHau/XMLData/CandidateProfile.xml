@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Candidates>
+    <Candidate>
+        <CandidateID>CANDIDATE0001</CandidateID>
+        <Fullname>Alan Clinton</Fullname>
+        <Birthday>1990-09-01 00:00:00.000</Birthday>
+        <ProfileShortDescription>Excellent communication skills with a commitment to understanding customer requirements as well as business objectives.</ProfileShortDescription>
+        <ProfileURL>AlanClinton.PDF</ProfileURL>
+        <PostingID>P0002</PostingID>
+    </Candidate>
+    <Candidate>
+        <CandidateID>CANDIDATE0002</CandidateID>
+        <Fullname>Ethelbert Harron</Fullname>
+        <Birthday>1993-04-16 00:00:00.000</Birthday>
+        <ProfileShortDescription>Critical thinking skills and an analytical mind with strong problem-solving abilitiess.</ProfileShortDescription>
+        <ProfileURL>EthelbertHarron.PDF</ProfileURL>
+        <PostingID>P0002</PostingID>
+    </Candidate>
+    <Candidate>
+        <CandidateID>CANDIDATE0003</CandidateID>
+        <Fullname>Kenneth Paul</Fullname>
+        <Birthday>1980-09-24 00:00:00.000</Birthday>
+        <ProfileShortDescription>Highly experienced with various operating systems and databases</ProfileShortDescription>
+        <ProfileURL>KennethPaul.PDF</ProfileURL>
+        <PostingID>P0002</PostingID>
+    </Candidate>
+    <Candidate>
+        <CandidateID>CANDIDATE0004</CandidateID>
+        <Fullname>Michael Leonard</Fullname>
+        <Birthday>1995-12-30 00:00:00.000</Birthday>
+        <ProfileShortDescription>Proven ability to troubleshoot hardware, software, and network issues quickly and effectively.</ProfileShortDescription>
+        <ProfileURL>MichaelLeonard.PDF</ProfileURL>
+        <PostingID>P0002</PostingID>
+    </Candidate>
+    <Candidate>
+        <CandidateID>CANDIDATE0005</CandidateID>
+        <Fullname>William Peter</Fullname>
+        <Birthday>1991-06-28 00:00:00.000</Birthday>
+        <ProfileShortDescription>Problem solving skills to revise existing systems and suggest improvements.</ProfileShortDescription>
+        <ProfileURL>WilliamPeter.PDF</ProfileURL>
+        <PostingID>P0003</PostingID>
+    </Candidate>
+    <Candidate>
+        <CandidateID>CANDIDATE0006</CandidateID>
+        <Fullname>Edward David Clinton</Fullname>
+        <Birthday>1990-07-13 00:00:00.000</Birthday>
+        <ProfileShortDescription>Patience and ability to train users in both new and existing IT systems.</ProfileShortDescription>
+        <ProfileURL>EdwardDavidClinton.PDF</ProfileURL>
+        <PostingID>P0004</PostingID>
+    </Candidate>
+    <Candidate>
+        <CandidateID>CANDIDATE0007</CandidateID>
+        <Fullname>Harvey Louis</Fullname>
+        <Birthday>1990-09-01 00:00:00.000</Birthday>
+        <ProfileShortDescription>Enthusiastic about working collaboratively.</ProfileShortDescription>
+        <ProfileURL>Harvey Louis.PDF</ProfileURL>
+        <PostingID>P0005</PostingID>
+    </Candidate>
+</Candidates>

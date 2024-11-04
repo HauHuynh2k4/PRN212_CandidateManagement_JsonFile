@@ -1,0 +1,69 @@
+﻿<Window x:Class="JsonCandidateManagement_HuynhNgocHau.HRAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonCandidateManagement_HuynhNgocHau"
+        mc:Ignorable="d"
+        Title="HRAccountWindow" Height="800" Width="1200" Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Img/Hraccount.jpg"/>
+        </Grid.Background>
+        <Label Content="HRACOUNT MANAGEMENT" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" FontSize="35" Background="#FFF93030" FontFamily="Goudy Old Style" Foreground="#FFF7F7F7"/>
+        <Label Content="FullName:" HorizontalAlignment="Left" Margin="160,195,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="20"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="651,105,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="20"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="160,103,0,0" VerticalAlignment="Top" Foreground="#FF101010" FontSize="20"/>
+        <Label Content="Role:" HorizontalAlignment="Left" Margin="651,203,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="20"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="265,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" Height="33" RenderTransformOrigin="0.894,0.784" FontSize="20">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtFullName" HorizontalAlignment="Left" Margin="265,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" Height="33" FontSize="20"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="753,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Height="33" FontSize="20"/>
+        <ComboBox x:Name="cmbRole" HorizontalAlignment="Left" Margin="753,206,0,0" VerticalAlignment="Top" Width="142" FontSize="20" Height="31"/>
+        <DataGrid x:Name="DataGrid" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="186,307,186,130" SelectionChanged="DataGrid_SelectionChanged" FontSize="16"/>
+        <Button x:Name="bntAdd" Content="Add" HorizontalAlignment="Left" Margin="120,691,0,0" VerticalAlignment="Top" Height="50" Width="113" Click="bntAdd_Click" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF83EB56"/>
+                    <GradientStop Color="#FF355F23" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="bntUpdate" Content="Update" HorizontalAlignment="Left" Margin="377,691,0,0" VerticalAlignment="Top" Height="50" Width="117" Click="bntUpdate_Click" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFFB68"/>
+                    <GradientStop Color="#FFA1A313" Offset="0.989"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="bntDelete" Content="Delete" HorizontalAlignment="Left" Margin="651,691,0,0" VerticalAlignment="Top" Height="50" Width="115" Click="bntDelete_Click" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFF6868"/>
+                    <GradientStop Color="#FFA72A2A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="bntClose" Content="Close" HorizontalAlignment="Left" Margin="923,691,0,0" VerticalAlignment="Top" Height="50" Width="117" Click="bntClose_Click" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFF69FB"/>
+                    <GradientStop Color="#FF8A2D88" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="496,199,0,0" VerticalAlignment="Top" Height="33" Width="70" Click="btnSearch_Click" Background="#FFF7824B" Foreground="White" FontSize="18"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="496,250,0,0" VerticalAlignment="Top" Height="32" Width="70" Click="btnReset_Click" Background="#FFF7824B" Foreground="White" FontSize="18"/>
+
+    </Grid>
+</Window>

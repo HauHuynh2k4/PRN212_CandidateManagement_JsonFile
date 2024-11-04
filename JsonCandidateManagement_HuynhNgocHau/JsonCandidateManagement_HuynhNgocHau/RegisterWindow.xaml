@@ -1,0 +1,23 @@
+﻿<Window x:Class="JsonCandidateManagement_HuynhNgocHau.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonCandidateManagement_HuynhNgocHau"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Img/pngtree-d-landscape-mural-wallpaper-majestic-mountains-and-trees-in-golden-black-picture-image_4055638.jpg"/>
+        </Grid.Background>
+        <Label Content="Register Page" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Width="480" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="35" Background="#FFE4CB24" Foreground="White" FontFamily="Goudy Old Style"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="144,207,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White" Background="#FFA29464"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="260,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="37" FontSize="16" VerticalContentAlignment="Center"/>
+        <Label Content="Full Name:" HorizontalAlignment="Left" Margin="144,298,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White" Background="#FFA29464"/>
+        <TextBox x:Name="txtFullname" HorizontalAlignment="Left" Margin="260,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="37" FontSize="16" VerticalContentAlignment="Center"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="575,207,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White" Background="#FFA29464"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="681,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="37" FontSize="16" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="328,452,0,0" VerticalAlignment="Top" Height="46" Width="84" FontSize="16" Background="#FFFBFFAF" Click="btnCreate_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="579,452,0,0" VerticalAlignment="Top" Height="46" Width="84" FontSize="16" Background="#FFFFAFAF" Click="btnCancel_Click"/>
+    </Grid>
+</Window>

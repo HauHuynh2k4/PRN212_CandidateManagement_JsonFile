@@ -1,0 +1,34 @@
+﻿{
+  "JobPostings": [
+    {
+      "PostingID": "P0001",
+      "JobPostingTitle": "System Administrator Specialist (MS Exchange, AD Voice))",
+      "Description": "As our company is growing and we offer more service to our teams, we are looking for a Senior System engineer with a broad set of expertise in Messaging, voice systems, mail gateways, encryption (smime), etc.",
+      "PostedDate": "2022-07-01 00:00:00.000"
+    },
+    {
+      "PostingID": "P0002",
+      "JobPostingTitle": "IT Security Manager",
+      "Description": "Establish the Information Security Plan toward to updated ISO Framework as well as in alignment with IT Strategic Plan",
+      "PostedDate": "2022-07-01 00:00:00.000"
+    },
+    {
+      "PostingID": "P0003",
+      "JobPostingTitle": "(Senior) IT Recruitment Consultant",
+      "Description": "Developing and maintaining loyal business relationship with them aligning with our company and team business strategies",
+      "PostedDate": "2022-07-01 00:00:00.000"
+    },
+    {
+      "PostingID": "P0004",
+      "JobPostingTitle": "Senior Network Security Engineer",
+      "Description": "In this role you will provide Security Subject Matter technical and leadership, expertise, support and consultancy/advice within relevant service levels for several cyber security technology systems and services currently in use across NAB.",
+      "PostedDate": "2022-07-01 00:00:00.000"
+    },
+    {
+      "PostingID": "P0005",
+      "JobPostingTitle": "Mobile Game Developer",
+      "Description": "Responsible for QA phase of those large-scale projects (or multi projects) with 7-8 members. Responsibilities are to instruct the team on quality metrics and testing strategies for each project.",
+      "PostedDate": "2022-07-01 00:00:00.000"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "Candidates": [
+      {
+        "CandidateID": "CANDIDATE0001",
+        "Fullname": "Alan Clinton",
+        "Birthday": "1990-09-01 00:00:00.000",
+        "ProfileShortDescription": "Excellent communication skills with a commitment to understanding customer requirements as well as business objectives.",
+        "ProfileURL": "AlanClinton.PDF",
+        "PostingID": "P0002"
+      },
+      {
+        "CandidateID": "CANDIDATE0002",
+        "Fullname": "Ethelbert Harron",
+        "Birthday": "1993-04-16 00:00:00.000",
+        "ProfileShortDescription": "Critical thinking skills and an analytical mind with strong problem-solving abilitiess.",
+        "ProfileURL": "EthelbertHarron.PDF",
+        "PostingID": "P0002"
+      },
+      {
+        "CandidateID": "CANDIDATE0003",
+        "Fullname": "Kenneth Paul",
+        "Birthday": "1980-09-24 00:00:00.000",
+        "ProfileShortDescription": "Highly experienced with various operating systems and databases",
+        "ProfileURL": "KennethPaul.PDF",
+        "PostingID": "P0002"
+      },
+      {
+        "CandidateID": "CANDIDATE0004",
+        "Fullname": "Michael Leonard",
+        "Birthday": "1995-12-30 00:00:00.000",
+        "ProfileShortDescription": "Proven ability to troubleshoot hardware, software, and network issues quickly and effectively.",
+        "ProfileURL": "MichaelLeonard.PDF",
+        "PostingID": "P0002"
+      },
+      {
+        "CandidateID": "CANDIDATE0005",
+        "Fullname": "William Peter",
+        "Birthday": "1991-06-28 00:00:00.000",
+        "ProfileShortDescription": "Problem solving skills to revise existing systems and suggest improvements.",
+        "ProfileURL": "WilliamPeter.PDF",
+        "PostingID": "P0003"
+      },
+      {
+        "CandidateID": "CANDIDATE0006",
+        "Fullname": "Edward David Clinton",
+        "Birthday": "1990-07-13 00:00:00.000",
+        "ProfileShortDescription": "Patience and ability to train users in both new and existing IT systems.",
+        "ProfileURL": "EdwardDavidClinton.PDF",
+        "PostingID": "P0004"
+      },
+      {
+        "CandidateID": "CANDIDATE0007",
+        "Fullname": "Harvey Louis",
+        "Birthday": "1990-09-01 00:00:00.000",
+        "ProfileShortDescription": "Enthusiastic about working collaboratively.",
+        "ProfileURL": "Harvey Louis.PDF",
+        "PostingID": "P0005"
+      }
+    ]
+  }

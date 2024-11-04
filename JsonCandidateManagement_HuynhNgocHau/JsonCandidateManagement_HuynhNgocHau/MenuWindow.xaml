@@ -1,0 +1,40 @@
+﻿<Window x:Class="JsonCandidateManagement_HuynhNgocHau.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonCandidateManagement_HuynhNgocHau"
+        mc:Ignorable="d"
+        Title="MenuWindow" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Img/background-dep-4k.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Candidate" Content="Candidate Profile" HorizontalAlignment="Left" Margin="170,330,0,0" VerticalAlignment="Top" Height="58" Width="160" Click="Candidate_Click" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFAC56"/>
+                    <GradientStop Color="#FFBA5E00" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Job" Content="Job Posting" HorizontalAlignment="Left" Margin="680,330,0,0" VerticalAlignment="Top" Height="58" Width="160" Click="Job_Click" Foreground="#FF2F0000" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF6EEBF4"/>
+                    <GradientStop Color="#FF006F78" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="WelcomeLabel" Content="Welcome" HorizontalAlignment="Center" Margin="0,76,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.292,0.955"  FontSize="30" Background="#FFF18686" Foreground="White" Height="52"/>
+        <Button x:Name="Logoutbtn" Content="Log out" HorizontalAlignment="Left" Margin="60,78,0,0" VerticalAlignment="Top" Height="48" Width="72" Click="Logoutbtn_Click" Background="#FFA49A9A" Foreground="White" FontSize="16"/>
+        <Button x:Name="btn_hrAccount" Content="HRAccount" HorizontalAlignment="Center" Margin="0,330,0,0" VerticalAlignment="Top" Height="58" Width="160" Click="btn_hrAccount_Click" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEDA2FF"/>
+                    <GradientStop Color="#FF8A30A0" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
